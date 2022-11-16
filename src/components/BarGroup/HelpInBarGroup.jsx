@@ -1,5 +1,5 @@
-import React from "react";
-import HelpWindow from "../popUp/HelpWindow";
+import React from 'react';
+import HelpWindow from '../popUp/HelpWindow';
 
 export default function HelpInBarGroup(props) {
   const helpIcon = props.helpIcon;
@@ -8,7 +8,7 @@ export default function HelpInBarGroup(props) {
   return (
     <label htmlFor="idn" className="idn">
       <img
-        src="/pic/help-icon.png"
+        src="src/images/help-icon.png"
         onClick={() => {
           helpClick();
         }}

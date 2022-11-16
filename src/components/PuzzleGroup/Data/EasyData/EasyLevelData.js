@@ -1,4 +1,4 @@
-const path = "./components/PuzzleGroup/Pictures";
+const path = 'src/components/PuzzleGroup/Pictures';
 export const pic1EasyData = [
   `${path}/Pic1-Easy/1.jpg`,
   `${path}/Pic1-Easy/2.jpg`,

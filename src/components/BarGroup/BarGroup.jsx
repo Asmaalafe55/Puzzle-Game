@@ -1,7 +1,7 @@
-import React from "react";
-import UserInBarGroup from "./UserInBarGroup";
-import HelpInBarGroup from "./HelpInBarGroup";
-import SettingsInBarGroup from "./SettingsInBarGroup";
+import React from 'react';
+import UserInBarGroup from './UserInBarGroup';
+import HelpInBarGroup from './HelpInBarGroup';
+import SettingsInBarGroup from './SettingsInBarGroup';
 
 export default function BarGroup(props) {
   const userIcon = props.userIcon;
@@ -26,7 +26,7 @@ export default function BarGroup(props) {
       </div>
       <div className="logo">
         <h3>PUZZLE ME</h3>
-        <img src="./pic/logo-icon.png" />
+        <img src="src/images/logo-icon.png" />
       </div>
       <div className="helpAndSettingsIcons">
         <div className="helpClick">

@@ -1,5 +1,5 @@
-import React from "react";
-import UserWindow from "../popUp/UserWindow";
+import React from 'react';
+import UserWindow from '../popUp/UserWindow';
 
 export default function UserInBarGroup(props) {
   const userIcon = props.userIcon;
@@ -8,7 +8,7 @@ export default function UserInBarGroup(props) {
   return (
     <label htmlFor="idn" className="idn">
       <img
-        src="/pic/user-icon.png"
+        src="src/images/user-icon.png"
         onClick={() => {
           userClick();
         }}

@@ -1,5 +1,5 @@
-import React from "react";
-import SettingsWindow from "../popUp/SettingsWindow";
+import React from 'react';
+import SettingsWindow from '../popUp/SettingsWindow';
 
 export default function SettingsInBarGroup(props) {
   const settingsIcon = props.settingsIcon;
@@ -9,7 +9,7 @@ export default function SettingsInBarGroup(props) {
   return (
     <label htmlFor="idn" className="idn">
       <img
-        src="/pic/settings-icon.png"
+        src="src/images/settings-icon.png"
         onClick={() => {
           settingsClick();
         }}
