@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webAhead1/Puzzle-Game.git"
+    "url": "git+https://github.com/asmaalafe55/Puzzle-Game.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/webAhead1/Puzzle-Game/issues"
+    "url": "https://github.com/asmaalafe55/Puzzle-Game/issues"
   },
-  "homepage": "https://github.com/webAhead1/Puzzle-Game#readme",
+  "homepage": "https://github.com/asmaalafe55/Puzzle-Game#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
