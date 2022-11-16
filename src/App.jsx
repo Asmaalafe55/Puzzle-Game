@@ -1,9 +1,9 @@
-import React from "react";
-import BarGroup from "../components/BarGroup/BarGroup";
-import ChoosePicGroup from "../components/ChoosePicGroup/ChoosePicGroup";
-import ChooseLevelGroup from "../components/ChooseLevelGroup/ChooseLevelGroup";
-import TimerGroup6 from "../components/TimerGroup/TimerGroup6";
-import PuzzleGroup from "../components/PuzzleGroup/PuzzleGroup";
+import React from 'react';
+import BarGroup from '../components/BarGroup/BarGroup';
+import ChoosePicGroup from '../components/ChoosePicGroup/ChoosePicGroup';
+import ChooseLevelGroup from '../components/ChooseLevelGroup/ChooseLevelGroup';
+import TimerGroup6 from '../components/TimerGroup/TimerGroup6';
+import PuzzleGroup from '../components/PuzzleGroup/PuzzleGroup';
 
 function App() {
   const [userIcon, setUserIcon] = React.useState(false);
@@ -15,7 +15,7 @@ function App() {
   const [easy, setEasy] = React.useState(false);
   const [middle, setMiddle] = React.useState(false);
   const [hard, setHard] = React.useState(false);
-  const [username, setUsername] = React.useState("Asmsaaa");
+  const [username, setUsername] = React.useState('Asmsaaa');
   return (
     <main>
       <section className="BarGroup">
