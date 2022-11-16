@@ -1,8 +1,8 @@
-import React from "react";
-import EasyLevelPuzzle from "./Board/EasyLevelPuzzle";
-import MiddleLevelPuzzle from "./Board/MiddleLevelPuzzle";
-import HardLevelPuzzle from "./Board/HardLevelPuzzle";
-import EmptyBoard from "./Board/EmptyBoard";
+import React from 'react';
+import EasyLevelPuzzle from './Board/EasyLevelPuzzle';
+import MiddleLevelPuzzle from './Board/MiddleLevelPuzzle';
+import HardLevelPuzzle from './Board/HardLevelPuzzle';
+import EmptyBoard from './Board/EmptyBoard';
 
 export default function PuzzleGroup(props) {
   const pic1 = props.pic1;

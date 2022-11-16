@@ -1,18 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
 import {
-  pic1MiddleData,
-  pic2MiddleData,
-  pic3MiddleData,
-} from "../../Data/MiddleData/MiddleLevelData.js";
+  pic1EasyData,
+  pic2EasyData,
+  pic3EasyData,
+} from '../../Data/EasyData/EasyLevelData.js';
 
 import {
-  pic1MiddleSolution,
-  pic2MiddleSolution,
-  pic3MiddleSolution,
-} from "../../Data/MiddleData/MiddleLevelData";
+  pic1EasySolution,
+  pic2EasySolution,
+  pic3EasySolution,
+} from '../../Data/EasyData/EasyLevelData';
 
-export function MiddleBoardPic1(props) {
+export function EasyBoardPic1(props) {
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
   const choice2 = props.choice2;
@@ -22,8 +22,8 @@ export function MiddleBoardPic1(props) {
   const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
-    setBoard(pic1MiddleData);
-    setBoardSolution(pic1MiddleSolution);
+    setBoard(pic1EasyData);
+    setBoardSolution(pic1EasySolution);
   }, []);
 
   console.log({ board });
@@ -33,14 +33,14 @@ export function MiddleBoardPic1(props) {
       <div
         className="backgroundBoard"
         style={{
-          backgroundColor: "#D36B00",
+          backgroundColor: '#D36B00',
         }}
       ></div>
-      <div className="boardMiddle">
+      <div className="boardEasy">
         {board.map((pic, index) => (
-          <div className="PicCellMiddle" key={index}>
+          <div className="PicCellEasy" key={index}>
             <img
-              className="imgStyleMiddle"
+              className="imgStyleEasy"
               onClick={() => {
                 if (choice1 === null) {
                   setChoice1(index);
@@ -57,7 +57,7 @@ export function MiddleBoardPic1(props) {
   );
 }
 
-export function MiddleBoardPic2(props) {
+export function EasyBoardPic2(props) {
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
   const choice2 = props.choice2;
@@ -67,8 +67,8 @@ export function MiddleBoardPic2(props) {
   const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
-    setBoard(pic2MiddleData);
-    setBoardSolution(pic2MiddleSolution);
+    setBoard(pic2EasyData);
+    setBoardSolution(pic2EasySolution);
   }, []);
 
   console.log({ board });
@@ -78,14 +78,14 @@ export function MiddleBoardPic2(props) {
       <div
         className="backgroundBoard"
         style={{
-          backgroundColor: "#D36B00",
+          backgroundColor: '#D36B00',
         }}
       ></div>
-      <div className="boardMiddle">
-        {pic2MiddleData.map((pic) => (
-          <div className="PicCellMiddle" key={pic}>
+      <div className="boardEasy">
+        {pic2EasyData.map((pic) => (
+          <div className="PicCellEasy" key={pic}>
             <img
-              className="imgStyleMiddle"
+              className="imgStyleEasy"
               onClick={() => {
                 if (choice1 === null) {
                   setChoice1(index);
@@ -102,7 +102,7 @@ export function MiddleBoardPic2(props) {
   );
 }
 
-export function MiddleBoardPic3(props) {
+export function EasyBoardPic3(props) {
   const choice1 = props.choice1;
   const setChoice1 = props.setChoice1;
   const choice2 = props.choice2;
@@ -112,8 +112,8 @@ export function MiddleBoardPic3(props) {
   const setBoardSolution = props.setBoardSolution;
 
   useEffect(() => {
-    setBoard(pic3MiddleData);
-    setBoardSolution(pic3MiddleSolution);
+    setBoard(pic3EasyData);
+    setBoardSolution(pic3EasySolution);
   }, []);
 
   console.log({ board });
@@ -123,14 +123,14 @@ export function MiddleBoardPic3(props) {
       <div
         className="backgroundBoard"
         style={{
-          backgroundColor: "#D36B00",
+          backgroundColor: '#D36B00',
         }}
       ></div>
-      <div className="boardMiddle">
-        {pic3MiddleData.map((pic) => (
-          <div className="PicCellMiddle" key={pic}>
+      <div className="boardEasy">
+        {pic3EasyData.map((pic) => (
+          <div className="PicCellEasy" key={pic}>
             <img
-              className="imgStyleMiddle"
+              className="imgStyleEasy"
               onClick={() => {
                 if (choice1 === null) {
                   setChoice1(index);
@@ -146,4 +146,4 @@ export function MiddleBoardPic3(props) {
     </div>
   );
 }
-export default { MiddleBoardPic1, MiddleBoardPic2, MiddleBoardPic3 };
+export default { EasyBoardPic1, EasyBoardPic2, EasyBoardPic3 };
